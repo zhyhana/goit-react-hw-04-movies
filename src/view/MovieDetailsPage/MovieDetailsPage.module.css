@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+}
+
+.img {
+  width: 300px;
+}
+
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  cursor: pointer;
+  display: block;
+
+  width: 130px;
+  height: 45px;
+
+  border-radius: 5px;
+  border-color: transparent;
+  font-size: 11px;
+  line-height: 45px;
+
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #ffffff;
+  background: rgb(185, 185, 185);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: rgb(0, 100, 0);
+  box-shadow: 0 5px 10px rgba(0, 100, 0, 0.4);
+  color: white;
+}
+
+.textContainer {
+  margin-left: 20px;
+}
+
+.name {
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.link {
+  padding: 10px;
+
+  display: inline-block;
+  margin-bottom: 25px;
+  color: #ffffff;
+  background: rgb(185, 185, 185);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+  border-radius: 5px;
+
+  font-size: 24px;
+}
+.link:hover {
+  background: rgb(0, 100, 0);
+  box-shadow: 0 5px 10px rgba(0, 100, 0, 0.4);
+  color: white;
+}
